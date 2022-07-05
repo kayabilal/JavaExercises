@@ -1,6 +1,6 @@
 package Giris;
 import java.util.Scanner;
-public class ucgen_alan_hesaplama {
+public class UcgenAlanHesaplama {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         int a,b,c;
