@@ -19,7 +19,7 @@ public class NotOrtalamasi {
         muzik=inp.nextInt();
 
         float sonuc=(mat +fzk+kimya+tarih+turkce+muzik)/6;
-        System.out.println(" Notunuz :" + sonuc);
+        System.out.println(" Ortalama Notunuz :" + sonuc);
         String result= sonuc>60 ? "Sınıfı Geçti" : "Sınıfta Kaldı";
         System.out.println(result);
     }
