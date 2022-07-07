@@ -2,7 +2,7 @@ package Giris;
 
 import java.util.Scanner;
 
-public class donguler3 {
+public class TekSayilarinToplami {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=0;
@@ -14,7 +14,7 @@ public class donguler3 {
             if (n<0){
                 break;
             }
-            if(n%2==1){
+            if(n%2==0 && n%4==0){
                 toplam+=n;
             }
         }
