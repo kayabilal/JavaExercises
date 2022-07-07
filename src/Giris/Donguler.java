@@ -2,17 +2,21 @@ package Giris;
 
 public class Donguler {
     public static void main(String[] args) {
-        int day=1;
+        int i=1;
+        int k;
 
-        switch (day){
-            case 1:
-                System.out.println("Bugün pazartesi");
-                break;
-            case 2:
-                System.out.println("bugun salı");
-                break;
-            default:
-                System.out.println("hatalı giriş yaptınız");
+        System.out.println("The Program has started");
+
+        while (i<=5){
+            System.out.println(i);
+            k=1;
+            while (k<=10){
+                System.out.print( k + ",");
+                k++;
+            }
+            System.out.println();
+            i++;
         }
+        System.out.println("the program is over");
     }
 }
