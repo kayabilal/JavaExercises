@@ -7,7 +7,7 @@ public class MukemmelNumbers {
         while(true){
             System.out.println("Enter a Number");
             int number=sc.nextInt();
-            if(number==9){
+            if(number==10){
                 break;
             }
             int total=0;
