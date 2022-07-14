@@ -103,7 +103,7 @@ public class Calculator {
         for (int i = 1; i <= n; i++) {
             result *= i;
         }
-    static void mode () {
+    /*static void mode () {
             Scanner sc = new Scanner(System.in);
             System.out.print("Modu alınacak Sayıyı giriniz :");
             int moduAlinan = sc.nextInt();
@@ -111,8 +111,8 @@ public class Calculator {
             int modSayisi = sc.nextInt();
             int sonuc = moduAlinan%modSayisi;
             System.out.println("Sonuç : " + sonuc);
-        }
-    static void calc () {
+        }*/
+    /*static void calc () {
             Scanner sc = new Scanner(System.in);
             System.out.print("Birinci kenar uzunluğunun giriniz :");
             int kenar1 = sc.nextInt();
@@ -123,7 +123,7 @@ public class Calculator {
             alan=kenar1*kenar2;
             System.out.println("Dikdörtgenin çevresi: " + cevre);
             System.out.println("Dikdörtgenin alanı: " + alan);
-        }
+        }*/
 
         System.out.println("Sonuç : " + result);
     }
@@ -166,12 +166,12 @@ public class Calculator {
                 case 6:
                     factorial();
                     break;
-                case 7:
+             /*   case 7:
                     mode();
                     break;
                 case 8:
                     calc();
-                    break;
+                    break;*/
                 case 0:
                     break;
                 default:
