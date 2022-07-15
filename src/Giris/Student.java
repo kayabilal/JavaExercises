@@ -7,7 +7,7 @@ public class Student {
     String name;
     String stuNo;
     String classes;
-    double avarage;
+    double average;
     boolean isPass;
 
 
@@ -18,7 +18,7 @@ public class Student {
         this.c1=c1;
         this.c2=c2;
         this.c3=c3;
-        this.avarage=0.0;
+        this.average=0.0;
         this.isPass=false;
 
     }
@@ -53,13 +53,13 @@ public class Student {
         double fizikAv = this.c2.note *0.8 + this.c2.verbal_note * 0.2;
         double biyoAv = this.c3.note *0.6 + this.c3.verbal_note * 0.4;
         double average = (tarihAv + fizikAv + biyoAv) / 3;
-        this.avarage = average;
+        this.average = average;
         printNote();
         isPass();
     }
 
     void isPass(){
-        if(this.avarage>55){
+        if(this.average>55){
             System.out.println("You have successfully passed the class.");
             isPass=true;
         }else{
@@ -72,7 +72,7 @@ public class Student {
         System.out.println(this.c1.name + "Notu: "+this.c1.note+ "sözlü notu" + this.c1.verbal_note);
         System.out.println(this.c2.name + "Notu: "+this.c2.note+"sözlü notu"+ this.c2.verbal_note);
         System.out.println(this.c3.name + "Notu: "+this.c3.note+"sözlü notu"+this.c3.verbal_note);
-        System.out.println("Average: "+ this.avarage);
+        System.out.println("Average: "+ this.average);
 
     }
 
