@@ -14,13 +14,13 @@ public class RepatingNumbersInArray {
     public static void main(String[] args) {
         int[] list={2,5,6,1,2,4,6,4,6,6,2,8,8};
         int[] ciftsayi=new int[list.length];
-        int baslangic=0;
+        int baslangicc=0;
 
         for(int i=0;i<list.length;i++){
             for (int j=0;j<list.length;j++ ){
                 if((i!=j) && (list[i]==list[j])){
                     if(!isFind(ciftsayi,list[i])){
-                        ciftsayi[baslangic++]=list[i];
+                        ciftsayi[baslangicc++]=list[i];
                         break;
                     }
                 }
