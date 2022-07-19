@@ -10,6 +10,6 @@ public class HarmonicMeanInArrays {
         }
         total=array.length/result;
 
-        System.out.println("Harmonic Average =" + total);
+        System.out.println("Harmonic Average ="+ total);
     }
 }
